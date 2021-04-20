@@ -205,7 +205,7 @@ section p {
  
  /* Gradient buttons */
  .btn-gradient:link, .btn-gradient:visited {
-    background-image: linear-gradient(90deg,#e052a0,#f15c41);
+    background-image: linear-gradient(90deg,#526bf4,#3ec7e0);
     color: #fff;
  } 
  
