@@ -163,18 +163,25 @@ section p {
 }
 /* ======== FLEXBOX: col 1 ======== */
 .item-col-1 {
+    
     padding: 12px; 
     margin-bottom: 40px; 
     width: 23%;
     border-radius: 10%;
 }
 .container-flexbox .item-col-1 { 
+    box-shadow: rgba(80, 79, 79, 0.8) 5px 5px 20px;
     width: 100%;
     text-align: center;
     padding: 10%;
     margin-bottom: 14%;
 }
-
+.container-flexbox .item-col-1 img {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10%;
+}
 /* ======== FLEXBOX: col 2 ======== */
 
 .item-col-2 {
@@ -194,6 +201,7 @@ section p {
 
 /* Desktops - 2 columns */
 .container-flexbox .item-col-2 { 
+    box-shadow: rgba(80, 79, 79, 0.8) 5px 5px 20px;
 	width: 45%;
 	text-align: left;
 	padding: 5%;
@@ -222,6 +230,7 @@ section p {
 /* Desktops - 3 columns */
 @media (min-width:768px) { 
 	.container-flexbox .item-col-3 { 
+        box-shadow: rgba(80, 79, 79, 0.8) 5px 5px 20px;
 		width: 30%;
 		text-align: left;
 		padding: 3%;
@@ -231,6 +240,7 @@ section p {
 /* Mobiles - 1 column */
 @media (max-width:767px) { 
 	.container-flexbox .item-col-3 { 
+        box-shadow: rgba(80, 79, 79, 0.8) 5px 5px 20px;
 		width: 100%;
 		text-align: center;
         padding: 10%;
@@ -260,6 +270,7 @@ section p {
 /* Desktops - 4 columns */
 @media (min-width:768px) { 
 	.container-flexbox .item-col-4 { 
+        box-shadow: rgba(80, 79, 79, 0.8) 5px 5px 20px;
 		width: 23%;
 		text-align: left;
 		padding: 3%;
@@ -269,6 +280,7 @@ section p {
 /* Mobiles - 2 column */
 @media (max-width:767px) { 
 	.container-flexbox .item-col-4 { 
+        box-shadow: rgba(80, 79, 79, 0.8) 5px 5px 20px;
 		width: 45%;
 		text-align: center;
 		padding: 5%;
